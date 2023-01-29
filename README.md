@@ -16,9 +16,7 @@ add to qb-core/shared/items
 ```
 ![vpn](https://user-images.githubusercontent.com/89742984/190626872-e76710fb-ca0a-4231-9e0d-137bb909cb1c.png)
 
-
 1)  go to Lester house
-
 
 ![Screenshot_1](https://user-images.githubusercontent.com/70651562/215299267-4f4e2859-ec23-4b8e-8238-de9b6a3408ea.png)
 
@@ -30,22 +28,15 @@ add to qb-core/shared/items
 
 4)  check your mail to get the loaction
 
-
-![image](https://user-images.githubusercontent.com/89742984/190622765-21aac3fe-a723-44d8-8b00-f566dbe11136.png)
+![Screenshot_3](https://user-images.githubusercontent.com/70651562/215299619-a4bd3743-88de-4c83-af07-0b438dbbd0d6.png)
 
 5)  got to the location on the map
 
-
-![image](https://user-images.githubusercontent.com/89742984/190622904-64d64256-16b2-4156-8056-0f9742f0fe3c.png)
-
 6)  talk with Mr. Garcia and buy some good item
 
-![image](https://user-images.githubusercontent.com/89742984/190623303-f3247ff9-ef9c-4f1b-a814-4cf990a83608.png)
+![Screenshot_4](https://user-images.githubusercontent.com/70651562/215300230-a65f67fc-1b70-4af9-9042-bb0acc98a799.png)
 
+![Screenshot_5](https://user-images.githubusercontent.com/70651562/215300262-01440f30-aac2-493f-b0bc-65055c785d33.png)
 
-![image](https://user-images.githubusercontent.com/89742984/190623326-440f426f-aa3f-40a3-b4a8-2ae80c141a4e.png)
-
-
-![image](https://user-images.githubusercontent.com/89742984/190623389-e8756c44-fa91-49dc-86ef-ea18c79d5633.png)
-
+![Screenshot_6](https://user-images.githubusercontent.com/70651562/215300290-b4d2fccf-0b74-464c-802d-f7266db98ec9.png)
 
