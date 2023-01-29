@@ -10,14 +10,20 @@ end)
 RegisterNetEvent('qb-blackmarket:Buyitems', function (cd)
     local src = source 
 	local Player = QBCore.Functions.GetPlayer(src)
-    local cash = Player.Functions.GetMoney('cash')
-    item = cd.item
-    price = cd.price
-    if cash >= price then
-        Player.Functions.RemoveMoney('cash', price)
-        Player.Functions.AddItem(item, 1)
-        TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], "add")
+    local item = cd.item
+    local price = cd.price
+    local soldisporchi = Player.Functions.GetItemByName("soldisporchi")
+    local nomeItem = QBCore.Shared.Items[item]["label"]
+    if soldisporchi ~= nil then
+        if tonumber(soldisporchi.amount) >= tonumber(price) then
+            Player.Functions.RemoveItem('soldisporchi', price)
+            Player.Functions.AddItem(item, 1)
+            TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], "add")
+            TriggerClientEvent('QBCore:Notify', src, "Hai acquistato la sfaccim di " .. nomeItem .." fratm", 'success')
+        else 
+            TriggerClientEvent('QBCore:Notify', src, "Non hai abbastanza soldi", 'error')
+        end
     else
-        TriggerClientEvent('QBCore:Notify', src, "You Don't Have Enough Cash", 'error')
+        TriggerClientEvent('QBCore:Notify', src, "Non hai soldi", 'error')
     end
 end)
