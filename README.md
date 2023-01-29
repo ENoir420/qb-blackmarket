@@ -20,17 +20,13 @@ add to qb-core/shared/items
 1)  go to Lester house
 
 
-![image](https://user-images.githubusercontent.com/89742984/190621380-b331e282-9798-48b3-a890-d04a9cdad645.png)
+![Screenshot_1](https://user-images.githubusercontent.com/70651562/215299267-4f4e2859-ec23-4b8e-8238-de9b6a3408ea.png)
 
 2)  you need a laptop and vpn
 
-
-![Screenshot_1](https://user-images.githubusercontent.com/70651562/215299222-de0f796e-fd60-4546-aedc-c8d7e55cf71f.png)
-
-
 3)  phone hacking
 
-![image](https://user-images.githubusercontent.com/89742984/190622082-11b1b912-414e-4b3e-8a9f-86fde5a955c8.png)
+![Screenshot_2](https://user-images.githubusercontent.com/70651562/215299309-c3063596-085c-4387-a11d-32cbc5bd71fa.png)
 
 4)  check your mail to get the loaction
 
