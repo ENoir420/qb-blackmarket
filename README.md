@@ -25,7 +25,8 @@ add to qb-core/shared/items
 2)  you need a laptop and vpn
 
 
-![image](https://user-images.githubusercontent.com/89742984/190621563-6be75ebc-dbe6-4efe-9e29-48638d1212dd.png)
+![Screenshot_1](https://user-images.githubusercontent.com/70651562/215299222-de0f796e-fd60-4546-aedc-c8d7e55cf71f.png)
+
 
 3)  phone hacking
 
