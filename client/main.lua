@@ -33,9 +33,9 @@ local function Success(success)
         TriggerEvent("mhacking:hide")
 
         TriggerServerEvent('qb-phone:server:sendNewMail', {
-            sender = 'new mail',
-            subject = "Lester",
-            message = 'press ✔ to get Crazy Jack current location',
+            sender = 'Anonymous',
+            subject = "Qualcosa di interessante...",
+            message = 'Premi ✔ per sapere dove trovare Mr. Garcia',
             button = {
                 enabled = true,
                 buttonEvent = 'qb-blackmarket:Getjacklocation',
@@ -43,18 +43,18 @@ local function Success(success)
         })
 
         if num1 == num2 then
-            QBCore.Functions.Notify('Your vpn just burned :/', 'error', 5000)
+            QBCore.Functions.Notify('La tua VPN si è bruciata :/', 'error', 5000)
         end
 
-        QBCore.Functions.Notify('Check your mail', 'success', 5000)
+        QBCore.Functions.Notify('Controlla la tua email', 'success', 5000)
     else
         TriggerEvent("mhacking:hide")
 
         if num1 == num2 then
-            QBCore.Functions.Notify('Your vpn just burned :/', 'error', 5000)
+            QBCore.Functions.Notify('La tua VPN si è bruciata :/', 'error', 5000)
         end
 
-        QBCore.Functions.Notify('You lost hacking', 'error', 5000)
+        QBCore.Functions.Notify('Hai fallito l\'hacking', 'error', 5000)
     end
 end
 
@@ -62,9 +62,9 @@ RegisterNetEvent('qb-blackmarket:Uselaptop', function()
     if insideLester == true then
         TriggerEvent("mhacking:show")
         TriggerEvent("mhacking:start", math.random(6, 7), math.random(20, 20), Success)
-        QBCore.Functions.Notify('You just connect to lester wifi', 'success', 5000)
+        QBCore.Functions.Notify('Sei connesso alla rete', 'success', 5000)
     else
-        QBCore.Functions.Notify('No wifi', 'error', 5000)
+        QBCore.Functions.Notify('Nessuna connessione...', 'error', 5000)
     end
 end)
 
@@ -152,7 +152,7 @@ RegisterNetEvent('qb-blackmarket:Jackmenu', function()
 
     jackList[#jackList + 1] = {
         isMenuHeader = true,
-        header = 'Crazy Jack Market',
+        header = 'Mr. Garcia',
         icon = 'fa-solid fas fa-shop'
     }
 
@@ -195,7 +195,7 @@ local models = {
         type = "client",
         event = "qb-blackmarket:Jackmenu",
         icon = 'fas fa-face-laugh-wink',
-        label = 'Crazy Jack',
+        label = 'Mr. Garcia',
         canInteract = function(entity, distance, data) 
           if GetEntityHealth(entity) <= 190 then return false end 
           return true
