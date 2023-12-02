@@ -2,6 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'QB-BlackMarket'
+author 'ENoir'
 version '1.0.0'
 
 client_scripts {
